@@ -44,6 +44,7 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+> **Note:** Please ensure that you add environment variables to the `.env` file before running the app.
 
 ## Test
 
@@ -57,6 +58,18 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Updating app onfiguration
+You can update the app `configuration` file located at:<br/>
+├── src<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;├── config<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── configuration.ts
+
+## Updating swagger initialization
+You can update the `swagger` initialization file located at:<br/>
+├── src<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;├── swagger<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── index.ts
 
 ## Support
 
